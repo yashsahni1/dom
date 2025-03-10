@@ -1,0 +1,118 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:300px;
+    width:30%;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 10px 10px 25px black;
+    gap:40px;
+}
+.shapes{
+    width:40%;
+    height:150px;
+    background-color: aqua;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btns{
+    display:flex;
+    gap:30px;
+}
+.btns>button{
+    padding:6px 6px;
+   border:none;
+   border-radius: 8px;
+   background-color: black;
+   color:white;
+   font-size:15px;
+  font-weight: lighter;
+}
+#changeColor{
+    transition:all 0.3s linear;
+}
+#changeShape{
+    transition:all 0.3s linear;
+}
+#changeColor:hover{
+    cursor:pointer;
+    background-color: rgb(43, 226, 83);
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 25px brown;
+}
+#changeShape:hover{
+    cursor:pointer;
+    background-color: rgb(43, 226, 83);
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 25px brown;
+}
+
+#cheg{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+#square{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+#round{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+#diamond{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+#triangle{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+#arrow{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+#frame{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%); 
+}
+#star{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+#cross{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+} 

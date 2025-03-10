@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#mainContainer{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.color-container{
+    width:150px;
+    height:150px;
+    border-radius:5px;
+    border:2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    font-size:25px;
+    /* background-color: brown; */
+}

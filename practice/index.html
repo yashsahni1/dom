@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Shape and Color</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body class="flex flex-col items-center justify-center h-screen bg-gray-100">
+    <div class="flex flex-col>
+    <div class="w-40 h-40 bg-gray-200 rounded-full flex items-center justify-center ">
+        <div id="shape" class="w-24 h-24 bg-blue-500 transition-all duration-500 [clip-path:inset(0)]"></div>
+    </div>
+    <div class="flex space-x-4">
+        <button id="changeColor" class="px-4 py-2 bg-green-400 text-white rounded-lg shadow-md hover:bg-green-700 transition-all duration-300">
+            Change Color
+        </button>
+        <button id="changeShape" class="px-4 py-2 bg-blue-400 text-white rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300">
+            Change Shape
+        </button>
+    </div>
+   </div>
+</body>
+</html>
